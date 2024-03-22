@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="textViewWelcome" type="id" />
+    <item name="textViewNamaPembeli" type="id" />
+    <item name="textViewTipeMember" type="id" />
+    <item name="textViewTransaksi" type="id" />
+    <item name="textViewKodeBarang1" type="id" />
+    <item name="textViewNamaBarang1" type="id" />
+    <item name="textViewKodeBarang2" type="id" />
+    <item name="textViewNamaBarang2" type="id" />
+    <item name="textViewKodeBarang3" type="id" />
+    <item name="textViewNamaBarang3" type="id" />
+    <item name="textViewJumlahBarang" type="id" />
+    <item name="textViewHarga" type="id" />
+    <item name="textViewTotalHarga" type="id" />
+    <item name="textViewDiscountMember" type="id" />
+    <item name="textViewDiscountHarga" type="id" />
+    <item name="textViewJumlahBayar" type="id" />
+    <item name="button2" type="id" />
+    <item name="textInputLayoutNama" type="id" />
+    <item name="textInputLayoutKode1" type="id" />
+    <item name="textInputLayoutKode2" type="id" />
+    <item name="textInputLayoutKode3" type="id" />
+</resources>

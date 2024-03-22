@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/textViewWelcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/selamat_datang"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textViewNamaPembeli"
+        android:text="@string/nama_pembeli"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textViewTipeMember"
+        android:text="@string/tipe_member"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textViewTransaksi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/transaksi_hari"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textViewKodeBarang1"
+        android:text="@string/kode_barang1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textViewNamaBarang1"
+        android:text="@string/nama_barang1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textViewKodeBarang2"
+        android:text="@string/kode_barang2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textViewNamaBarang2"
+        android:text="@string/nama_barang2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textViewKodeBarang3"
+        android:text="@string/kode_barang3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textViewNamaBarang3"
+        android:text="@string/nama_barang3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textViewJumlahBarang"
+        android:text="@string/jumlah_barang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textViewHarga"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textViewTotalHarga"
+        android:text="@string/total_harga"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textViewDiscountMember"
+        android:text="@string/diskon_member"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textViewDiscountHarga"
+        android:text="@string/total_harga_setelah_diskon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textViewJumlahBayar"
+        android:text="@string/jumlah_bayar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="124dp"
+        android:layout_height="wrap_content"
+        android:text="@string/berbagi" />
+
+</LinearLayout>

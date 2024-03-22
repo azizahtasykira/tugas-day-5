@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">TugasDay5</string>
+    <string name="tipe_pelanggan">Tipe Pelanggan</string>
+    <string name="biasa">Biasa</string>
+    <string name="masukkan_nama_anda">Masukkan Nama Anda</string>
+    <string name="kode_1">Kode 1</string>
+    <string name="kode_2">Kode 2</string>
+    <string name="kode_3">Kode 3</string>
+    <string name="masukkan_jumlah_barang">Masukkan Jumlah Tiap Barang</string>
+    <string name="proses">Proses</string>
+    <string name="selamat_datang">Selamat Datang</string>
+    <string name="transaksi_hari">Transaksi Hari Ini</string>
+    <string name="berbagi">Berbagi</string>
+    <string name="nama_pembeli">Nama Pembeli:</string>
+    <string name="tipe_member">Tipe Member:</string>
+    <string name="kode_barang1">Kode Barang 1:</string>
+    <string name="nama_barang1">Nama Barang 1:</string>
+    <string name="kode_barang2">Kode Barang 2:</string>
+    <string name="nama_barang2">Nama Barang 2:</string>
+    <string name="kode_barang3">Kode Barang 3:</string>
+    <string name="nama_barang3">Nama Barang 3:</string>
+    <string name="jumlah_barang">Jumlah Barang:</string>
+    <string name="total_harga">Total Harga:</string>
+    <string name="diskon_member">Diskon Member:</string>
+    <string name="total_harga_setelah_diskon">Total Harga Setelah Diskon:</string>
+    <string name="jumlah_bayar"> Jumlah Bayar:</string>
+</resources>

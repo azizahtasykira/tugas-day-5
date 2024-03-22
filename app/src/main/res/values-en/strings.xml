@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">TugasDay5</string>
+    <string name="tipe_pelanggan">Customer Type</string>
+    <string name="biasa">Normal</string>
+    <string name="masukkan_nama_anda">Enter Your Name</string>
+    <string name="kode_1">1st Code</string>
+    <string name="kode_2">2nd Code</string>
+    <string name="kode_3">3rd Code</string>
+    <string name="masukkan_jumlah_barang">Enter the Quantity of Each Item</string>
+    <string name="proses">Process</string>
+    <string name="selamat_datang">Welcome</string>
+    <string name="transaksi_hari">Today`s Transaction</string>
+    <string name="berbagi">Share</string>
+    <string name="nama_pembeli">Buyer Name:</string>
+    <string name="tipe_member">Buyer Type:</string>
+    <string name="kode_barang1">1st Item Code:</string>
+    <string name="nama_barang1">1st Item Name:</string>
+    <string name="kode_barang2">2nd Item Code:</string>
+    <string name="nama_barang2">2nd Item Name:</string>
+    <string name="kode_barang3">3rd Item Code:</string>
+    <string name="nama_barang3">3rd Item Name:</string>
+    <string name="jumlah_barang">Total Item:</string>
+    <string name="total_harga">Total Price:</string>
+    <string name="diskon_member">Discount Member:</string>
+    <string name="total_harga_setelah_diskon">Total Price After Discount:</string>
+    <string name="jumlah_bayar">Total Payment:</string>
+</resources>

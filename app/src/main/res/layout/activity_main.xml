@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:background="#673AB7"
+        android:padding="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:textColor="#ffff"
+            android:textSize="30sp"
+            android:text="AppMob Store"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputLayoutNama"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/text1"
+            android:layout_width="match_parent"
+            android:hint="@string/masukkan_nama_anda"
+            android:layout_height="wrap_content"/>
+    </com.google.android.material.textfield.TextInputLayout>
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TextView
+            android:text="@string/tipe_pelanggan"
+            android:textSize="20sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:padding="5dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RadioGroup
+            android:textAlignment="center"
+            android:orientation="horizontal"
+            android:id="@+id/radioGroup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <RadioButton
+                android:id="@+id/radioButton1"
+                android:textSize="20sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Gold"/>
+
+            <RadioButton
+                android:id="@+id/radioButton2"
+                android:textSize="20sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Silver"/>
+
+            <RadioButton
+                android:id="@+id/radioButton3"
+                android:textSize="20sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/biasa"/>
+        </RadioGroup>
+    </LinearLayout>
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_marginRight="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginBottom="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/textInputLayoutKode1"
+            android:textSize="20sp"
+            android:layout_marginTop="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/kode"
+                android:layout_width="96dp"
+                android:layout_height="wrap_content"
+                android:hint="@string/kode_1" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+        <RelativeLayout
+            android:layout_width="20dp"
+            android:layout_height="match_parent"/>
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/textInputLayoutKode2"
+            android:textSize="20sp"
+            android:layout_marginTop="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/kode2"
+                android:layout_width="96dp"
+                android:layout_height="wrap_content"
+                android:hint="@string/kode_2" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+        <RelativeLayout
+            android:layout_width="20dp"
+            android:layout_height="match_parent"/>
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/textInputLayoutKode3"
+            android:textSize="20sp"
+            android:layout_marginTop="15dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/kode3"
+                android:layout_width="96dp"
+                android:layout_height="wrap_content"
+                android:hint="@string/kode_3" />
+
+        </com.google.android.material.textfield.TextInputLayout>
+    </LinearLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:id="@+id/textInputLayoutJumlahBarang"
+        android:layout_marginLeft="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.google.android.material.textfield.TextInputEditText
+            android:id="@+id/text2"
+            android:layout_width="match_parent"
+            android:hint="@string/masukkan_jumlah_barang"
+            android:layout_height="wrap_content"/>
+    </com.google.android.material.textfield.TextInputLayout>
+        <Button
+            android:layout_marginRight="15dp"
+            android:layout_marginLeft="15dp"
+            android:layout_marginTop="10dp"
+            android:id="@+id/button"
+            android:textSize="20sp"
+            android:text="@string/proses"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+</LinearLayout>
